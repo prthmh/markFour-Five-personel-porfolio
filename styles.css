@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    margin: 0px
+    margin: 0px;
 }
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 
@@ -38,8 +38,8 @@ body {
     border-radius: 0.5rem;
     color: white;
     display: block;
-    max-width: 140px;
-    margin: 1rem 1rem 1rem 0rem;
+    max-width: 122px;
+    margin: 1rem auto;
 }
 
 .link-secondary {
@@ -47,8 +47,8 @@ body {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
     display: block;
-    max-width: 140px;
-    margin: 1rem 1rem 1rem 0rem;
+    max-width: 122px;
+    margin: 1rem auto;
 } 
 
 /** lists **/
@@ -139,6 +139,7 @@ body {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    
 }
 
 .footer .link {
@@ -153,3 +154,15 @@ body {
 .footer ul {
     padding-inline-start: 0px;
 }
+
+.button {
+    text-align: center;
+}
+
+.blog-section {
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 3rem;
+}
+
