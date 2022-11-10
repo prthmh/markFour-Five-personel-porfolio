@@ -3,6 +3,7 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     margin: 0px;
+    
 }
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 
@@ -69,7 +70,7 @@ body {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-radius: 1rem;
     /* border-bottom-right-radius: 1rem; */
 }
 
@@ -129,6 +130,9 @@ body {
 .ow {
     background-color: var(--off-white);
 }
+.o {
+    background-color: white;
+}
 
 
 /** footers **/
@@ -138,7 +142,7 @@ body {
     padding: 4rem 1rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
+    border-radius: 1rem;
     
 }
 
@@ -165,6 +169,12 @@ body {
     margin-right: 5rem;
     border-radius: 3rem;
 }
+
+.section2 {
+    padding: 2rem;
+    border-radius: 3rem;
+}
+
 
 #proj {
     text-align: center;
