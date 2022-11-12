@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
+
 body {
     font-family: 'Ubuntu', sans-serif;
     margin: 0px;
+    background-image: linear-gradient(to right, #F9ABA4,#EFECEC);
     
 }
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 
-body {
-    font-family: 'Roboto Mono', monospace;
-} */
 
 :root {
     --primary-color: #F87171;
@@ -130,9 +128,7 @@ body {
 .ow {
     background-color: var(--off-white);
 }
-.o {
-    background-color: white;
-}
+
 
 
 /** footers **/
@@ -173,6 +169,7 @@ body {
 .section2 {
     padding: 2rem;
     border-radius: 3rem;
+    margin: 1rem;
 }
 
 
